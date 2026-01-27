@@ -23,3 +23,14 @@ magick avatar-1x.png -filter point -resize ${percent}% \
   avatar.png
 
 echo "Created avatar.png (400x400) - scaled ${scale}x"
+
+# Avatar logomark: white logomark on green bg with border
+magick logomark-1x.png \
+  -background white -flatten \
+  -fill red -opaque "srgb(98,169,76)" \
+  -fill "srgb(98,169,76)" -opaque white \
+  -fill white -opaque red \
+  -bordercolor "srgb(98,169,76)" -border 30% \
+  -filter point -resize 1000% \
+  avatar-logomark.png
+echo "Created avatar-logomark.png (910x850)"
