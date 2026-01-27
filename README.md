@@ -85,11 +85,13 @@ Instead of separate light/dark icon files, use `tintColor` to colorize dynamical
 
 Works because icons are monochrome on transparent backgrounds. One file, any color.
 
+## Brand Colors
+
+- **Clover Logo Green**: `#62a94c` - The green color of the clover in the logomark
+
 ## Other Assets
 
-- `logo.png` / `logo_dark.png` - App logo
-- `logomark.png` / `logomark_dark.png` - Icon-only mark
-- `wordmark.png` - Text-only logo
-- `favicon.png` - Browser favicon
+- `logomark.png` - Icon-only mark (the clover)
+- `favicon.ico` / `favicon.png` - Browser favicon
 - `banner.png` - Marketing banner
 - `twitter_avatar.png` / `twitter_banner.png` - Social assets
